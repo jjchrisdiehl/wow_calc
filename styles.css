@@ -1,0 +1,52 @@
+body{
+  background-color: black;
+}
+
+.wrapper{
+  column-count: 1;
+  column-gap: 20px;
+}
+
+@media ( min-width: 1350px){
+  .wrapper{
+    column-count: 3;
+    column-gap: 20px;
+  }
+}
+
+
+#calc {
+  border: 1px solid orange;
+  grid-area: calc;
+  width: 1248px;
+}
+.tree {
+  border: 3px solid blue;
+  min-width: 400px;
+  width: 450px;
+  max-width:: 400px;
+  height: auto;
+  margin: 0 auto;
+}
+
+#one {
+  grid-area: one;
+}
+
+#two {
+  grid-area: two;
+}
+
+#three {
+  grid-area: three;
+}
+
+.tier {
+  border: 1px solid purple;
+  grid-area: tier;
+}
+
+.item {
+  border: 1px solid red;
+  grid-area: item;
+}
